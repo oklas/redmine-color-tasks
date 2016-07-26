@@ -4,8 +4,9 @@ This is Redmine theme with tasks colours like Mantis tasks colors.
 
 The two additional task status is provided. You may be want
 to add task **Acknowledged** (7) and **Confirmed** (8)
+in "Adminstration" > "Issue statuses".
 
-This simple theme conceived as overloading of existed theme.
+This simple theme conceived as overloading of existing theme.
 By default it overload the standart **classic** Redmine theme.
 It's look like this:
 
