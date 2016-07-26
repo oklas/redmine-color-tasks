@@ -1,0 +1,78 @@
+/*
+1 New
+2 Assigned
+3 Resolved
+4 Feedback
+5 Closed
+6 Rejected
+
+7 Acknowledged
+8 Confirmed
+*/
+
+/* new */
+tr.odd.status-1, table.list tbody tr.odd.status-1:hover { }
+tr.odd.status-1 { background: #fcbdbd; }
+tr.even.status-1, table.list tbody tr.even.status-1:hover { }
+tr.even.status-1 { background: #f6b5b5; }
+tr.status-1 a { }
+tr.odd.status-1 td, tr.even.status-1 td { border-color: #fcbdbd; }
+
+/* assigned */
+tr.odd.status-2, table.list tbody tr.odd.status-2:hover { }
+tr.odd.status-2 { background: #c2dfff; }
+tr.even.status-2, table.list tbody tr.even.status-2:hover { }
+tr.even.status-2 { background: #bad7f7; }
+tr.status-2 a { }
+tr.odd.status-2 td, tr.even.status-2 td { border-color: #c2dfff; }
+
+/* resolved */
+tr.odd.status-3, table.list tbody tr.odd.status-3:hover { }
+tr.odd.status-3 { background: #d2f5b0; }
+tr.even.status-3, table.list tbody tr.even.status-3:hover { }
+tr.even.status-3 { background: #caeda8; }
+tr.status-3 a { }
+tr.odd.status-3 td, tr.even.status-3 td { border-color:#d2f5b0; }
+
+/* feedback */
+tr.odd.status-4, table.list tbody tr.odd.status-4:hover { }
+tr.odd.status-4 { background: #e3b7eb; }
+tr.even.status-4, table.list tbody tr.even.status-4:hover { }
+tr.even.status-4 { background: #dbafe2; }
+tr.status-4 a { }
+tr.odd.status-4 td, tr.even.status-4 td { border-color:#e3b7eb; }
+
+/* closed */
+tr.odd.status-5, table.list tbody tr.odd.status-5:hover { }
+tr.odd.status-5 { background: #c9ccc4; }
+tr.even.status-5, table.list tbody tr.even.status-5:hover { }
+tr.even.status-5 { background: #c1c3bb; }
+tr.status-5 a { }
+tr.odd.status-5 td, tr.even.status-5 td { border-color:#c9ccc4; }
+
+
+/* rejected */
+tr.odd.status-6, table.list tbody tr.odd.status-5:hover { }
+tr.odd.status-6 { background: #b9bcb4; } // #ba9b92
+tr.even.status-6, table.list tbody tr.even.status-5:hover { }
+tr.even.status-6 { background: #b1b3ab; } // #b29a8a
+tr.status-6 a { }
+tr.odd.status-6 td, tr.even.status-6 td { border-color:#b9bcb4; }
+
+/* acknowledged */
+tr.odd.status-7, table.list tbody tr.odd.status-5:hover { }
+tr.odd.status-7 { background: #ffcd85; }
+tr.even.status-7, table.list tbody tr.even.status-5:hover { }
+tr.even.status-7 { background: #f7c57c; }
+tr.status-7 a { }
+tr.odd.status-7 td, tr.even.status-7 td { border-color:#ffcd85; }
+
+/* confirmed */
+tr.odd.status-8, table.list tbody tr.odd.status-5:hover { }
+tr.odd.status-8 { background: #fff494; }
+tr.even.status-8, table.list tbody tr.even.status-5:hover { }
+tr.even.status-8 { background: #f7eb8d; }
+tr.status-8 a { }
+tr.odd.status-8 td, tr.even.status-8 td { border-color:#fff494; }
+
+
